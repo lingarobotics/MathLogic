@@ -1,52 +1,53 @@
 # LGC MathLogic — Step-Controlled Engineering Mathematics (Anna University R2021)
 
-> **A Step-Controlled Math Learning System built to enforce thinking, not passive learning.**  
+> **A step-controlled math learning system designed to enforce structured thinking, not passive learning.**  
 > Focused on **Anna University (R2021 Regulation)**.
 
 ---
 
 ## 🧠 Vision
 
-LGC MathLogic is designed to solve one core problem:
+LGC MathLogic addresses a fundamental issue in mathematics learning:
 
-> Students don’t fail mathematics because it is difficult —  
-> they fail because they don’t understand *what to do next*.
+> Students often struggle not because mathematics is inherently difficult,  
+> but because they lack clarity on *what to do next*.
 
-This system transforms math learning into a **method-driven, step-controlled thinking process**, ensuring clarity, flow, and reasoning at every stage.
+This system restructures learning into a **method-driven, step-controlled process**, ensuring clarity, direction, and reasoning at every stage.
 
 ---
 
 ## 🎯 Core Philosophy
 
-- **Method > Memorization**
-- **Steps > Final Answer**
-- **Thinking > Watching**
-- **Control > Overwhelm**
+- **Method over memorization**
+- **Steps over final answers**
+- **Thinking over passive consumption**
+- **Controlled progression over overload**
 
 ---
 
 ## 🎓 Academic Scope
 
-This product is strictly aligned with:
+Aligned with:
 
 > **Anna University — Regulation 2021 (R2021)**
 
 ### 📚 Subjects Covered
 
 - **M1 — Matrices & Calculus**  
-- **M2 — Statistics & Numerical Methods**  
-- **M3 — Transforms & Partial Differential Equations**
+- **M2 — Statistics & Numerical Methods** *(planned)*  
+- **M3 — Transforms & Partial Differential Equations** *(planned)*  
 
 ---
 
 ## 🚀 Version Roadmap
 
-### ✅ V1 (Current Version)
+### ✅ V1 (Current)
 
 - 📘 Focus: **M1 — Matrices & Calculus**
-- Step-controlled learning system implemented
-- Structured method-based problem solving
+- Step-controlled learning flow implemented
+- Method-based structure (Unit → Topic → Method → Steps)
 - Initial dataset with step-mapped examples
+- Frontend–backend integration completed
 
 ---
 
@@ -54,14 +55,14 @@ This product is strictly aligned with:
 
 - Expand coverage within **M1**
 - Introduce **M2 — Statistics & Numerical Methods**
-- Improve interaction and learning flow
+- Improve interaction and flow control
 
 ---
 
 ### 🔄 V3
 
 - Introduce **M3 — Transforms & PDE**
-- Add advanced features:
+- Add advanced learning features:
   - Exam Mode  
   - Teach-Back Mode  
   - Adaptive progression  
@@ -72,65 +73,69 @@ This product is strictly aligned with:
 
 ### 🔹 Method-Based Learning
 
+
 Subject → Topic → Method → Steps
 
 
-- Eliminates random approaches  
-- Builds structured thinking  
+- Eliminates unstructured approaches  
+- Encourages consistent problem-solving flow  
 
 ---
 
-### 🔹 Step-Control Engine (Core Feature)
+### 🔹 Step-Control Engine
 
 - Only **one step visible at a time**
-- Next step locked until interaction
-- Reduces cognitive overload
+- Controlled progression through interaction
+- Reduces cognitive overload  
 
 ---
 
 ### 🔹 Example Synchronization
 
-- Each step is mapped to an example step  
-- No full solution exposure  
-- Learning happens progressively  
+- Each step mapped to a corresponding example  
+- Prevents exposure to full solutions  
+- Reinforces step-by-step understanding  
 
 ---
 
-### 🔹 Guided Progression
+### 🔹 Guided Interaction
 
-- `Next Step`
-- `Show Example`
+- `Next Step`  
+- `Show Example`  
 
 ---
 
 ### 🔹 Structured Knowledge Base
 
 Content is transformed into:
+
 - Methods  
 - Ordered steps  
 - Step-mapped examples  
 
-(Not raw book storage)
+*(Not raw textbook storage)*
 
 ---
 
 ## 🧱 System Architecture
 
-### 🧠 Core Layer (Structured Database)
+### 🧠 Core Layer (Knowledge Structure)
 
 Stores:
-- Regulation: R2021  
+
+- Regulation (R2021)  
 - Subject  
 - Topic  
 - Method  
 - Ordered Steps  
-- Example-Step Mapping  
+- Step–Example Mapping  
 
 ---
 
 ### ⚙️ Engine Layer (Step Controller)
 
 Handles:
+
 - Step visibility  
 - Step progression  
 - Interaction flow  
@@ -139,40 +144,40 @@ Handles:
 
 ### 🖥️ UI Layer
 
-Minimal and focused:
-- Step display  
-- Controlled navigation  
-- No distractions  
+- Minimal and focused  
+- Step display and controlled navigation  
+- Designed to reduce distraction  
 
 ---
 
 ## ❌ What This System Avoids
 
-- No full solution dumps  
-- No random AI-generated steps  
-- No passive learning  
-- No unstructured explanations  
+- Full solution dumping  
+- Unstructured explanations  
+- Passive content consumption  
+- Random or uncontrolled step generation  
 
 ---
 
 ## 🧠 Long-Term Vision
 
-LGC MathLogic is the foundation for:
+LGC MathLogic is intended as a foundation for:
 
-> **A system that trains structured thinking across domains**
+> **Structured thinking systems across technical domains**
 
-Future expansion:
+Potential future expansions:
+
 - Physics problem solving  
 - Engineering mechanics  
 - Algorithmic thinking  
 
 ---
 
-## 🛠️ Tech Stack (Planned)
+## 🛠️ Tech Stack
 
-- **Frontend:** React.js  
+- **Frontend:** React (Vite)  
 - **Backend:** Node.js + Express  
-- **Database:** MongoDB  
+- **Data Layer:** Structured JSON (V1) → Database (planned)  
 
 ---
 
@@ -186,9 +191,9 @@ Future expansion:
 
 ## 💬 Final Note
 
-LGC MathLogic is built with one purpose:
+LGC MathLogic is built with a single objective:
 
-> To make students **think step-by-step**, not just reach answers.
+> Enable learners to **think step-by-step**, not just arrive at answers.
 
 ---
 

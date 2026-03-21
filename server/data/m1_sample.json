@@ -1,0 +1,52 @@
+{
+  "units": [1, 2, 3, 4, 5],
+
+  "topics": {
+    "1": ["Eigenvalues and Eigenvectors"],
+    "2": ["Differentiation"],
+    "3": ["Taylor Series"],
+    "4": ["Integration"],
+    "5": ["Multiple Integrals"]
+  },
+
+  "methods": {
+    "Eigenvalues and Eigenvectors": ["Characteristic Equation"],
+    "Taylor Series": ["Taylor Expansion Method"]
+  },
+
+  "steps": {
+    "Characteristic Equation": [
+      "Form matrix A - λI",
+      "Compute determinant |A - λI|",
+      "Form characteristic equation",
+      "Solve for λ",
+      "List eigenvalues"
+    ],
+
+    "Taylor Expansion Method": [
+      "Identify function f(x,y)",
+      "Compute partial derivatives",
+      "Apply Taylor expansion formula",
+      "Substitute values",
+      "Simplify result"
+    ]
+  },
+
+  "examples": {
+    "Characteristic Equation": [
+      "A - λI = ...",
+      "|A - λI| = ...",
+      "Equation = 0",
+      "λ = 2, 3",
+      "Eigenvalues are 2 and 3"
+    ],
+
+    "Taylor Expansion Method": [
+      "f(x,y) = ...",
+      "∂f/∂x, ∂f/∂y = ...",
+      "Taylor formula = ...",
+      "Substitute values",
+      "Final expansion"
+    ]
+  }
+}

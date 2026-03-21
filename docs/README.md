@@ -68,7 +68,7 @@ This phase includes:
 
 ### 🔹 Fix: After Debugging
 
-![Dropdown Fixed](images/pre-development/unit-dropdown-showing-after-debug.png)
+![Dropdown Fixed](images/pre-development/unit-dropdown-showing-after-debugging.png)
 
 **Solution:**
 

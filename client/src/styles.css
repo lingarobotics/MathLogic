@@ -1,0 +1,55 @@
+/* Layout */
+.app-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Selector */
+.selector-container {
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  margin-right: 10px;
+  padding: 6px;
+}
+
+/* Step */
+.step-container {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.step-text {
+  font-size: 16px;
+}
+
+/* Buttons */
+.next-btn,
+.example-btn,
+.start-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Example */
+.example-container {
+  background: #e8f5e9;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.example-text {
+  font-size: 15px;
+}

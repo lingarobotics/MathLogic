@@ -1,211 +1,273 @@
-# LGC MathLogic — Step-Controlled Engineering Mathematics (Anna University R2021)
+# MathLogic
 
-> **A step-controlled math learning system designed to enforce structured thinking, not passive learning.**  
-> Focused on **Anna University (R2021 Regulation)**.
+A method-centric mathematics learning platform designed to transform mathematical knowledge into structured, reusable learning workflows.
 
----
+MathLogic focuses on helping learners understand **how problems are solved**, not just what the final answer is.
 
-## 🧠 Vision
+Traditional educational systems often emphasize content consumption through notes, videos, and solved examples. MathLogic takes a different approach by organizing knowledge around concepts, methods, procedural steps, and learning progression.
 
-LGC MathLogic addresses a fundamental issue in mathematics learning:
-
-> Students often struggle not because mathematics is inherently difficult,  
-> but because they lack clarity on *what to do next*.
-
-This system restructures learning into a **method-driven, step-controlled process**, ensuring clarity, direction, and reasoning at every stage.
+The goal is to help learners develop problem-solving ability through structured understanding rather than memorization.
 
 ---
 
-## 🎯 Core Philosophy
+# Vision
 
-- **Method over memorization**
-- **Steps over final answers**
-- **Thinking over passive consumption**
-- **Controlled progression over overload**
+Most learners struggle not because they lack formulas or definitions.
 
----
+They struggle because they cannot determine:
 
-## 🎓 Academic Scope
+> What should I do next?
 
-Aligned with:
+MathLogic is built around the belief that mathematical understanding emerges from learning reusable problem-solving methods.
 
-> **Anna University — Regulation 2021 (R2021)**
-
-### 📚 Subjects Covered
-
-- **M1 — Matrices & Calculus**  
-- **M2 — Statistics & Numerical Methods** *(planned)*  
-- **M3 — Transforms & Partial Differential Equations** *(planned)*  
+Instead of treating mathematics as a collection of answers, the platform treats it as a collection of reasoning processes.
 
 ---
 
-## 🚀 Version Roadmap
+# Problem Statement
 
-### ✅ V1 (Current)
+Traditional learning systems typically provide:
 
-- 📘 Focus: **M1 — Matrices & Calculus**
-- Step-controlled learning flow implemented
-- Method-based structure (Unit → Topic → Method → Steps)
-- Initial dataset with step-mapped examples
-- Frontend–backend integration completed
+* Notes
+* PDFs
+* Videos
+* Solved Examples
+* Question Banks
 
----
+While these resources contain valuable information, they rarely model:
 
-### 🔄 V2
+* Problem-solving procedures
+* Learning dependencies
+* Method relationships
+* Progressive mastery
 
-- Expand coverage within **M1**
-- Introduce **M2 — Statistics & Numerical Methods**
-- Improve interaction and flow control
+As a result, learners often recognize concepts but cannot apply them effectively.
 
----
-
-### 🔄 V3
-
-- Introduce **M3 — Transforms & PDE**
-- Add advanced learning features:
-  - Exam Mode  
-  - Teach-Back Mode  
-  - Adaptive progression  
+MathLogic addresses this gap by representing educational knowledge as structured entities and relationships.
 
 ---
 
-## ⚙️ Key Features
+# Core Philosophy
 
-### 🔹 Method-Based Learning
+MathLogic is guided by five principles.
 
+## Understanding Over Memorization
 
-Subject → Topic → Method → Steps
-
-
-- Eliminates unstructured approaches  
-- Encourages consistent problem-solving flow  
+Learning should focus on reasoning and application rather than answer recall.
 
 ---
 
-### 🔹 Step-Control Engine
+## Methods Over Solutions
 
-- Only **one step visible at a time**
-- Controlled progression through interaction
-- Reduces cognitive overload  
+Solutions are outcomes.
 
----
+Methods are reusable.
 
-### 🔹 Example Synchronization
-
-- Each step mapped to a corresponding example  
-- Prevents exposure to full solutions  
-- Reinforces step-by-step understanding  
+The platform prioritizes methods because they can be applied to entire classes of problems.
 
 ---
 
-### 🔹 Guided Interaction
+## Knowledge Over Content
 
-- `Next Step`  
-- `Show Example`  
+The objective is not to store information.
 
----
-
-### 🔹 Structured Knowledge Base
-
-Content is transformed into:
-
-- Methods  
-- Ordered steps  
-- Step-mapped examples  
-
-*(Not raw textbook storage)*
+The objective is to represent knowledge in a structured form.
 
 ---
 
-## 🧱 System Architecture
+## Progress Must Be Measurable
 
-### 🧠 Core Layer (Knowledge Structure)
-
-Stores:
-
-- Regulation (R2021)  
-- Subject  
-- Topic  
-- Method  
-- Ordered Steps  
-- Step–Example Mapping  
+Learning should be observable through progression rather than assumed through content consumption.
 
 ---
 
-### ⚙️ Engine Layer (Step Controller)
+## Reusability Matters
 
-Handles:
-
-- Step visibility  
-- Step progression  
-- Interaction flow  
+Concepts, methods, examples, and learning pathways should be reusable across multiple subjects and academic regulations.
 
 ---
 
-### 🖥️ UI Layer
+# Core Features
 
-- Minimal and focused  
-- Step display and controlled navigation  
-- Designed to reduce distraction  
+## Method-Centric Learning
 
----
+Each topic is broken into reusable methods.
 
-## ❌ What This System Avoids
+Example:
 
-- Full solution dumping  
-- Unstructured explanations  
-- Passive content consumption  
-- Random or uncontrolled step generation  
+```text
+Topic
+↓
+Methods
+↓
+Steps
+↓
+Examples
+```
 
----
-
-## 🧠 Long-Term Vision
-
-LGC MathLogic is intended as a foundation for:
-
-> **Structured thinking systems across technical domains**
-
-Potential future expansions:
-
-- Physics problem solving  
-- Engineering mechanics  
-- Algorithmic thinking  
+This helps learners understand the reasoning process behind solutions.
 
 ---
 
-## 🛠️ Tech Stack
+## Structured Knowledge Organization
 
-- **Frontend:** React (Vite)  
-- **Backend:** Node.js + Express  
-- **Data Layer:** Structured JSON (V1) → Database (planned)  
+Educational knowledge is organized through:
+
+```text
+Regulation
+↓
+Subject
+↓
+Unit
+↓
+Topic
+↓
+Method
+↓
+Step
+↓
+Example
+```
+
+This hierarchy allows concepts to remain organized and scalable.
 
 ---
 
-## ⚠️ Design Principles
+## Learning Pathways
 
-- Logic over aesthetics  
-- Simplicity over complexity  
-- Deterministic flow over randomness  
+MathLogic models educational progression explicitly.
+
+Example:
+
+```text
+Matrices
+↓
+Determinants
+↓
+Eigenvalues
+↓
+Eigenvectors
+```
+
+This enables guided learning experiences.
 
 ---
 
-## 💬 Final Note
+## Progress Tracking
 
-LGC MathLogic is built with a single objective:
+The platform is designed to track:
 
-> Enable learners to **think step-by-step**, not just arrive at answers.
+* Topic Completion
+* Method Completion
+* Step Completion
+* Learning Progress
+
+This transforms learning into a measurable process.
 
 ---
 
-## Ownership
+# Technology Stack
 
-This software system is an original product developed under **LGC Systems**.
+## Frontend
 
-The ideation, system architecture, design, and overall product vision originate from  
-**Ramalingam Jayavelu**, Founder of LGC Systems.
+* React
+* Vite
 
-All intellectual property, including system architecture, design, implementation, and source code contained in this repository, belongs exclusively to **Ramalingam Jayavelu under LGC Systems**.
+## Backend Services
 
-This repository does not transfer ownership or rights to any external organization, institution, company, or third party.
+* Supabase
+* Edge Functions (Planned)
 
-The software is maintained and governed solely under the LGC Systems initiative.
+## Database
+
+* PostgreSQL
+
+## Authentication
+
+* Supabase Auth
+
+---
+
+# Project Structure
+
+```text
+MathLogic
+│
+├── Frontend
+│   ├── React
+│   ├── Components
+│   ├── Pages
+│   └── Learning Workflows
+│
+├── Backend
+│   ├── Authentication
+│   ├── Progress Services
+│   └── Future Recommendation Services
+│
+├── Database
+│   ├── Subjects
+│   ├── Topics
+│   ├── Methods
+│   ├── Steps
+│   ├── Examples
+│   └── User Progress
+│
+└── Documentation
+    ├── README.md
+    ├── DATABASE.md
+    ├── ARCHITECTURE.md
+    ├── SYSTEM_DESIGN.md
+    └── ROADMAP.md
+```
+
+---
+
+# Current Focus
+
+The current version focuses on establishing the educational foundation of the platform.
+
+Primary objectives include:
+
+* Knowledge modeling
+* Method representation
+* Curriculum mapping
+* Learning workflows
+* Progress tracking
+
+---
+
+# Long-Term Vision
+
+MathLogic is intended to evolve into a structured educational knowledge platform capable of supporting multiple domains beyond mathematics.
+
+Potential future domains include:
+
+* Physics
+* Programming
+* Data Structures & Algorithms
+* Control Systems
+* Robotics
+* Engineering Sciences
+
+The long-term objective is to create a reusable framework for method-centric learning across technical disciplines.
+
+---
+
+# Documentation
+
+Additional documentation:
+
+* DATABASE.md
+* ARCHITECTURE.md
+* SYSTEM_DESIGN.md
+* ROADMAP.md
+
+These documents describe the platform's knowledge model, architectural decisions, system design considerations, and future development roadmap.
+
+---
+
+# Status
+
+Active Development
+
+MathLogic is currently being designed and developed as a learning-first platform focused on structured understanding, reusable knowledge models, and method-centric problem solving.
